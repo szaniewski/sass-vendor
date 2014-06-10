@@ -1,0 +1,39 @@
+// Page size
+
+$xs: 100%;
+$ls: 1170px;
+$md: 970px;
+$sm: 750px;
+$min: 350px;
+
+.grid {
+    display: block;
+    position: relative;
+    min-height: 1px;
+}
+
+[class=__xs-grid],
+.xs-grid {
+    width: $xs;
+}
+
+[class$=__lg-grid],
+.lg-grid {
+    width: $ls;
+}
+
+[class$=__md-grid],
+.md-grid {
+    width: $md;
+}
+
+[class$=__sm-grid],
+.sm-grid {
+    width: $sm;
+}
+
+[class$=__min-grid],
+.min-grid {
+    width: $min;
+    margin: 0 auto;
+}

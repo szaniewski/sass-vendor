@@ -1,0 +1,19 @@
+/* Mix translation out. $time parametr */
+
+@mixin transition-out ($time) {
+    -webkit-transition: all $time ease-out;
+    -moz-transition: all $time ease-out;
+    -ms-transition: all $time ease-out;
+    -o-transition: all $time ease-out;
+    transition: all $time ease-out
+}
+
+
+/* Best set time 300ms */
+@mixin cubic-bezier-animation ($time) {
+	-webkit-transition: all $time cubic-bezier(0.63, 0.62, 0.48, 1.84) 0ms;
+	-moz-transition: all $time cubic-bezier(0.63, 0.62, 0.48, 1.84) 0ms;
+	-ms-transition: all $time cubic-bezier(0.63, 0.62, 0.48, 1.84) 0ms;
+	-o-transition: all $timecubic-bezier(0.63, 0.62, 0.48, 1.84) 0ms;
+	transition: all $time cubic-bezier(0.63, 0.62, 0.48, 1.84) 0ms;
+}

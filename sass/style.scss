@@ -1,0 +1,30 @@
+/* GENERAL css structure  */
+@import "compass";
+
+/* General */
+@import "general/defuls";
+@import "general/help-class";
+@import "general/global-mix";
+
+/* Vendor */
+@import "vendor/clerfix";
+@import "vendor/normalizer";
+@import "vendor/list";
+@import "vendor/font-awesome";
+@import "vendor/tinymce-fix";
+
+/* Bulder */
+@import "bundle/grid";
+@import "bundle/btn";
+@import "bundle/alert";
+@import "bundle/avatar";
+@import "bulder/user-info";
+
+/* Page element */
+@import "page-element/top";
+@import "page-element/content";
+@import "page-element/footer";
+@import "page-element/widget";
+
+/* Page */
+/*@import "page/{{page name}}";*/

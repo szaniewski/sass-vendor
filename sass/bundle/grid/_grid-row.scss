@@ -1,0 +1,18 @@
+// Row bulder
+
+$grid-row: 12;
+$for-i: 1;
+
+@mixin statick-parametr {
+    float: left;
+    min-height: 1px;
+}
+
+@for $for-i from 1 through $grid-row {
+    .col-#{$for-i}  {
+        $row: (100/$grid-row)*$for-i;
+        $width-row: percentage($row)/100;
+        width: round($width-row);
+        @include statick-parametr;
+    }
+}

@@ -1,0 +1,28 @@
+/*  TinyMCE fix */
+
+.talk-form {
+	.mce-panel {
+		border: none
+	}
+}
+
+.talk-content {
+	.mce-btn,
+	.mce-panel  {
+		background-color: #f0f0f0;
+		@include background-image(linear-gradient(#f0f0f0, #f0f0f0));
+	}
+}
+
+.question-list {
+	.mce-btn-group {
+		.mce-first,
+		.mce-last,
+		.mce-btn,
+		.mce-first {
+			border: none;
+			border-left: none;
+			@include box-shadow(0 0 0 transparnt);
+		}
+	}
+}

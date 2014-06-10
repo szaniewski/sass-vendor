@@ -1,0 +1,27 @@
+// Button bulde
+
+@mixin btn (
+        $radius,
+        $text-shadow,
+        $box-shadow,
+        $gradient-from,
+        $gradient-to,
+        $border-color,
+        $font-size,
+        $padding-btn
+    ) {
+    @include border-radius($radius);
+    @include text-shadow($text-shadow);
+    @include box-shadow($box-shadow);
+    background: $gradient-from;
+    @include background-image(radial-gradient(top, $gradient-from,$gradient-to));
+    border: solid 1px;
+    border-color: $border-color;
+    font-size: $font-size;
+    text-decoration: none;
+    padding: $padding-btn;
+    &:hover {
+        background: $gradient-to;
+        @include background-image(radial-gradient(top,$gradient-to,$gradient-from));
+    }
+}

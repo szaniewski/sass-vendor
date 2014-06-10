@@ -1,0 +1,92 @@
+/* Position */
+[class$=__relatie],
+.pos-relatie {
+    position: relative;
+}
+[class$=__absolute],
+.pos-absolute {
+    position: absolute;
+}
+[class$=__fixed],
+.pos-fixed {
+    position: fixed;
+}
+[class$=__left],
+.pos-left {
+    float: left;
+    padding: 0.5em 0.5em 0 0;
+}
+[class$=__right],
+.pos-right {
+    float: right;
+    padding: 0 0 0.5em 0.5em;
+}
+
+/* Clear*/
+[class$=__clear-both],
+.clear-both {
+    clear: both;
+    display: block;
+    width: 100%;
+    min-height: 1px;
+}
+[class$=__clear-over],
+.clear-over {
+    overflow: hidden;
+    min-height: 1px;
+}
+
+/* Block */
+[class$=__none],
+.el-none {
+    display: none;
+}
+[class$=__block],
+.el-block {
+    display: block;
+}
+[class$=__inline],
+.inline {
+    display: inline;
+}
+
+/* Text */
+[class$=__hide-text],
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+[class$=__text-left],
+.text-left {
+     text-align: left;
+}
+[class$=__text-right],
+.text-right {
+     text-align: right;
+}
+[class$=__text-center],
+.text-center {
+     text-align: center;
+}
+[class$=__text-small],
+.text-small {
+    font-size: 0.6em;
+}
+[class$=__text-regular]
+.text-regular {
+    font-size: 0.7em;
+}
+[class$=__text-medium]
+.text-medium {
+    font-size: 1em;
+}
+[class$=__text-big],
+.text-big {
+    font-size: 1.5em;
+}
+[class$=__text-biger],
+.text-biger {
+    font-size: 2em;
+}

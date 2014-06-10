@@ -1,0 +1,7 @@
+/* User avatar*/
+
+.useravatar {
+	width: 30px;
+	margin: 5px;
+	@include border-radius(4px);
+}
